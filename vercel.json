@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "regions": ["sin1"],
+  "crons": [
+    {
+      "path": "/api/bots/tick",
+      "schedule": "*/1 * * * *"
+    }
+  ]
+}
